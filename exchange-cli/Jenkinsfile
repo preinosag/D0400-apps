@@ -22,4 +22,3 @@ sh "npm run test:unit"
 }
 }
 }
-}
