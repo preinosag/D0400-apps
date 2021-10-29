@@ -15,6 +15,8 @@ steps {
 dir ('exchange-cli') {
 sh "npm run build"
 }
+}
+}
 stage ('Unit Tests') {
 steps {
 dir ('exchange-cli') {
